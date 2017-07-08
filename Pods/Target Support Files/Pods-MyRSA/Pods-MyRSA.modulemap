@@ -1,0 +1,6 @@
+framework module Pods_MyRSA {
+  umbrella header "Pods-MyRSA-umbrella.h"
+
+  export *
+  module * { export * }
+}

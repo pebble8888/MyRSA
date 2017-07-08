@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0815927DC7AEECDDE4DDD6EF4CACFFF1 /* SwiftyRSA+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA49A2C51EDBA2A5B5BDDC082114F3A /* SwiftyRSA+ObjC.swift */; };
+		13C04CC7D061EF5F1DEE094EADE57815 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */; };
+		1710068C44FC9AC8255570607D447DDD /* SwiftyRSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B39E8C8E2B66202EA9F1AE715C5C2BBD /* SwiftyRSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2124851C68D73DC654B027E94CD50E9C /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4189CBB60B2CC31175F9926B67C60512 /* Signature.swift */; };
+		287958EFC2552F4FB577C32BE87E788E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		476A68476CBDE3DBD03E801318581C32 /* Pods-MyRSATests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A26A68EEB567CEC7D86FF9CE314231DB /* Pods-MyRSATests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC8E924081C20C7777A0781701FC2A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		5F22C4D907F6495535AD95C508740F4F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7881813CBB076E0AB8A04EE33B63F6 /* Message.swift */; };
+		716EF2BB5C687722C1FFE0830382AABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		73A4AA78E12C5B9B09C18C3CEE76C5C4 /* Pods-MyRSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2CD4C2CB07F5EA69EDE0C6D7EA2B55 /* Pods-MyRSA-dummy.m */; };
+		7ECD8374C8B52DB90DF9589B142FEA80 /* NSData+SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = 450C1AB6444C888CF3382159E0FD2354 /* NSData+SHA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C4272FA33B476ABDE8DAD59B2276E79 /* SwiftyRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A801845BB966F404B084848AB2EED /* SwiftyRSA.swift */; };
+		8E1852C7B24662877B09C55641761575 /* Pods-MyRSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3578249F0AF4287AAA2781375D7ACA68 /* Pods-MyRSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DDA33AB8AD76275491130A7F6259519 /* SwiftyRSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA21100E33FBB4F3E9D477FE2C66D909 /* SwiftyRSA-dummy.m */; };
+		A370054AA3AA9E883027EE082F71C282 /* NSData+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2988630A19756168A59E54D4686702 /* NSData+SHA.m */; };
+		B281CFD8D4299D80DDA5FE4C13A9F618 /* SwiftyRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A0C7472CE26CCC556AF1C0CF3BA82A /* SwiftyRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B871DBC6BBA647446F25B7CB7E0992FC /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC4F361DD3C3D15DE65C1C64F20665 /* Key.swift */; };
+		D4DCD96A0A967443AA930EF046AB9E02 /* Pods-MyRSATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B74EAE24158C029C701CFF304A582 /* Pods-MyRSATests-dummy.m */; };
+		E5F598D7413B0E634692ECC6716DE713 /* Asn1Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C268DBE6A7B7E5FA7E0A02B234BAA1D /* Asn1Parser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB04390A75BD82776780950B9E17EF79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2825D30EE086BF88D688B0CC65886943;
+			remoteInfo = SwiftyRSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F08CFE4195AF37884B78E34B564A3D4 /* SwiftyRSA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRSA-prefix.pch"; sourceTree = "<group>"; };
+		11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1C9365AC15B350AD163C1B9AF005BC6F /* Pods-MyRSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRSATests.release.xcconfig"; sourceTree = "<group>"; };
+		2AA49A2C51EDBA2A5B5BDDC082114F3A /* SwiftyRSA+ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyRSA+ObjC.swift"; path = "SwiftyRSA/SwiftyRSA+ObjC.swift"; sourceTree = "<group>"; };
+		3578249F0AF4287AAA2781375D7ACA68 /* Pods-MyRSA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyRSA-umbrella.h"; sourceTree = "<group>"; };
+		3EBCF0C7187942063A2B218C130ED524 /* Pods-MyRSA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRSA-acknowledgements.plist"; sourceTree = "<group>"; };
+		4189CBB60B2CC31175F9926B67C60512 /* Signature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signature.swift; path = SwiftyRSA/Signature.swift; sourceTree = "<group>"; };
+		4436C278CD33DB5D81E74A25B2FEE97F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448B547C88A236D8329F22FA8D98AD5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450C1AB6444C888CF3382159E0FD2354 /* NSData+SHA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SHA.h"; path = "SwiftyRSA/NSData+SHA.h"; sourceTree = "<group>"; };
+		4E8B74EAE24158C029C701CFF304A582 /* Pods-MyRSATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyRSATests-dummy.m"; sourceTree = "<group>"; };
+		4F7881813CBB076E0AB8A04EE33B63F6 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = SwiftyRSA/Message.swift; sourceTree = "<group>"; };
+		56DB377719B1C6DCC2DBB8FA5D5693AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C268DBE6A7B7E5FA7E0A02B234BAA1D /* Asn1Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asn1Parser.swift; path = SwiftyRSA/Asn1Parser.swift; sourceTree = "<group>"; };
+		5F2988630A19756168A59E54D4686702 /* NSData+SHA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SHA.m"; path = "SwiftyRSA/NSData+SHA.m"; sourceTree = "<group>"; };
+		6097E650D71813913D4C9DC664C77FA8 /* Pods-MyRSATests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRSATests-resources.sh"; sourceTree = "<group>"; };
+		6A5F344309478C3CAD78C806FFC1652C /* Pods-MyRSATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyRSATests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		797C1B2D5BA24AA45C3067123D4D425C /* Pods-MyRSATests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyRSATests.modulemap"; sourceTree = "<group>"; };
+		7ADC4F361DD3C3D15DE65C1C64F20665 /* Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Key.swift; path = SwiftyRSA/Key.swift; sourceTree = "<group>"; };
+		7B13684299AA679A265212715253C010 /* Pods_MyRSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyRSATests.framework; path = "Pods-MyRSATests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E781655EA3271C6C0FE69263F641472 /* SwiftyRSA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRSA.xcconfig; sourceTree = "<group>"; };
+		81BDA5FDEE3221545C13CE7FBD31227E /* Pods-MyRSA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRSA-frameworks.sh"; sourceTree = "<group>"; };
+		912AF1AF96466D6F5A89FABA3B90201B /* Pods-MyRSATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRSATests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A0C7472CE26CCC556AF1C0CF3BA82A /* SwiftyRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyRSA.h; path = SwiftyRSA/SwiftyRSA.h; sourceTree = "<group>"; };
+		9D5B7ED7A446B0424393CA181E5FC480 /* Pods-MyRSATests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRSATests-frameworks.sh"; sourceTree = "<group>"; };
+		A26A68EEB567CEC7D86FF9CE314231DB /* Pods-MyRSATests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyRSATests-umbrella.h"; sourceTree = "<group>"; };
+		A5B227A21CEB586F189BFB9BF575B603 /* Pods-MyRSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRSA.release.xcconfig"; sourceTree = "<group>"; };
+		B39E8C8E2B66202EA9F1AE715C5C2BBD /* SwiftyRSA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRSA-umbrella.h"; sourceTree = "<group>"; };
+		B5089DFF5111FB7E710F27D3DFCB8FE9 /* SwiftyRSA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyRSA.modulemap; sourceTree = "<group>"; };
+		B923709BD28761828C5A58325BC0A64B /* Pods-MyRSA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRSA-resources.sh"; sourceTree = "<group>"; };
+		BD2CD4C2CB07F5EA69EDE0C6D7EA2B55 /* Pods-MyRSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyRSA-dummy.m"; sourceTree = "<group>"; };
+		C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C50A801845BB966F404B084848AB2EED /* SwiftyRSA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyRSA.swift; path = SwiftyRSA/SwiftyRSA.swift; sourceTree = "<group>"; };
+		C927D252D805DD2DF29B51630B530A5A /* Pods-MyRSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRSATests.debug.xcconfig"; sourceTree = "<group>"; };
+		D04996CEC39F2E00F20A1FF4A876BF2F /* Pods-MyRSA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyRSA.modulemap"; sourceTree = "<group>"; };
+		D0B8B451BAA60AFE25A754B339E0594D /* SwiftyRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyRSA.framework; path = SwiftyRSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1DBD1F4925D13595DD9B37E442EC45 /* Pods-MyRSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRSA.debug.xcconfig"; sourceTree = "<group>"; };
+		DA21100E33FBB4F3E9D477FE2C66D909 /* SwiftyRSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRSA-dummy.m"; sourceTree = "<group>"; };
+		E8D1750116E8EED5B92EA03A58E74EC0 /* Pods-MyRSA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyRSA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F84D13B7C549D4253E1CA62B29416406 /* Pods_MyRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyRSA.framework; path = "Pods-MyRSA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4587826A90FFA4821547868FE9869C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287958EFC2552F4FB577C32BE87E788E /* Foundation.framework in Frameworks */,
+				13C04CC7D061EF5F1DEE094EADE57815 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7547F3DA79155C01628FE7CBC1C21297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC8E924081C20C7777A0781701FC2A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E321711AB596CA7AC4859E6237557272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716EF2BB5C687722C1FFE0830382AABE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F990579C2E52276FD3C28227B49D60B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F990579C2E52276FD3C28227B49D60B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */,
+				C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DC392F1779860F9084F81D1ECF384756 /* Pods */,
+				FDE61E82C2DBCB415D39847A0DA4B985 /* Products */,
+				AAAAB6B6A193D5B151385725ED950D18 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A352DD2F416AF5C64A0BC13D38200E07 /* Pods-MyRSATests */ = {
+			isa = PBXGroup;
+			children = (
+				56DB377719B1C6DCC2DBB8FA5D5693AD /* Info.plist */,
+				797C1B2D5BA24AA45C3067123D4D425C /* Pods-MyRSATests.modulemap */,
+				6A5F344309478C3CAD78C806FFC1652C /* Pods-MyRSATests-acknowledgements.markdown */,
+				912AF1AF96466D6F5A89FABA3B90201B /* Pods-MyRSATests-acknowledgements.plist */,
+				4E8B74EAE24158C029C701CFF304A582 /* Pods-MyRSATests-dummy.m */,
+				9D5B7ED7A446B0424393CA181E5FC480 /* Pods-MyRSATests-frameworks.sh */,
+				6097E650D71813913D4C9DC664C77FA8 /* Pods-MyRSATests-resources.sh */,
+				A26A68EEB567CEC7D86FF9CE314231DB /* Pods-MyRSATests-umbrella.h */,
+				C927D252D805DD2DF29B51630B530A5A /* Pods-MyRSATests.debug.xcconfig */,
+				1C9365AC15B350AD163C1B9AF005BC6F /* Pods-MyRSATests.release.xcconfig */,
+			);
+			name = "Pods-MyRSATests";
+			path = "Target Support Files/Pods-MyRSATests";
+			sourceTree = "<group>";
+		};
+		AAAAB6B6A193D5B151385725ED950D18 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE577CEF2456DFD9E5FABF6B57E6AE5C /* Pods-MyRSA */,
+				A352DD2F416AF5C64A0BC13D38200E07 /* Pods-MyRSATests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0F6C0450534333A213344543158E3B1 /* SwiftyRSA */ = {
+			isa = PBXGroup;
+			children = (
+				5C268DBE6A7B7E5FA7E0A02B234BAA1D /* Asn1Parser.swift */,
+				7ADC4F361DD3C3D15DE65C1C64F20665 /* Key.swift */,
+				4F7881813CBB076E0AB8A04EE33B63F6 /* Message.swift */,
+				450C1AB6444C888CF3382159E0FD2354 /* NSData+SHA.h */,
+				5F2988630A19756168A59E54D4686702 /* NSData+SHA.m */,
+				4189CBB60B2CC31175F9926B67C60512 /* Signature.swift */,
+				94A0C7472CE26CCC556AF1C0CF3BA82A /* SwiftyRSA.h */,
+				C50A801845BB966F404B084848AB2EED /* SwiftyRSA.swift */,
+				BA222E6DCD4FB5C3BB363315150D6AF3 /* ObjC */,
+				DCB4E85016FBD98376621C21D4D792D1 /* Support Files */,
+			);
+			name = SwiftyRSA;
+			path = SwiftyRSA;
+			sourceTree = "<group>";
+		};
+		BA222E6DCD4FB5C3BB363315150D6AF3 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				2AA49A2C51EDBA2A5B5BDDC082114F3A /* SwiftyRSA+ObjC.swift */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		DC392F1779860F9084F81D1ECF384756 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0F6C0450534333A213344543158E3B1 /* SwiftyRSA */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCB4E85016FBD98376621C21D4D792D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4436C278CD33DB5D81E74A25B2FEE97F /* Info.plist */,
+				B5089DFF5111FB7E710F27D3DFCB8FE9 /* SwiftyRSA.modulemap */,
+				7E781655EA3271C6C0FE69263F641472 /* SwiftyRSA.xcconfig */,
+				DA21100E33FBB4F3E9D477FE2C66D909 /* SwiftyRSA-dummy.m */,
+				0F08CFE4195AF37884B78E34B564A3D4 /* SwiftyRSA-prefix.pch */,
+				B39E8C8E2B66202EA9F1AE715C5C2BBD /* SwiftyRSA-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyRSA";
+			sourceTree = "<group>";
+		};
+		FDE61E82C2DBCB415D39847A0DA4B985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84D13B7C549D4253E1CA62B29416406 /* Pods_MyRSA.framework */,
+				7B13684299AA679A265212715253C010 /* Pods_MyRSATests.framework */,
+				D0B8B451BAA60AFE25A754B339E0594D /* SwiftyRSA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE577CEF2456DFD9E5FABF6B57E6AE5C /* Pods-MyRSA */ = {
+			isa = PBXGroup;
+			children = (
+				448B547C88A236D8329F22FA8D98AD5B /* Info.plist */,
+				D04996CEC39F2E00F20A1FF4A876BF2F /* Pods-MyRSA.modulemap */,
+				E8D1750116E8EED5B92EA03A58E74EC0 /* Pods-MyRSA-acknowledgements.markdown */,
+				3EBCF0C7187942063A2B218C130ED524 /* Pods-MyRSA-acknowledgements.plist */,
+				BD2CD4C2CB07F5EA69EDE0C6D7EA2B55 /* Pods-MyRSA-dummy.m */,
+				81BDA5FDEE3221545C13CE7FBD31227E /* Pods-MyRSA-frameworks.sh */,
+				B923709BD28761828C5A58325BC0A64B /* Pods-MyRSA-resources.sh */,
+				3578249F0AF4287AAA2781375D7ACA68 /* Pods-MyRSA-umbrella.h */,
+				DA1DBD1F4925D13595DD9B37E442EC45 /* Pods-MyRSA.debug.xcconfig */,
+				A5B227A21CEB586F189BFB9BF575B603 /* Pods-MyRSA.release.xcconfig */,
+			);
+			name = "Pods-MyRSA";
+			path = "Target Support Files/Pods-MyRSA";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24B0E2B8B3D6662E619213DB2C63601E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1852C7B24662877B09C55641761575 /* Pods-MyRSA-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D3D4396ED9BE1C627D92FE7416069F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476A68476CBDE3DBD03E801318581C32 /* Pods-MyRSATests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E53DF191C824E4F0F940DF09E8AF97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECD8374C8B52DB90DF9589B142FEA80 /* NSData+SHA.h in Headers */,
+				1710068C44FC9AC8255570607D447DDD /* SwiftyRSA-umbrella.h in Headers */,
+				B281CFD8D4299D80DDA5FE4C13A9F618 /* SwiftyRSA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2825D30EE086BF88D688B0CC65886943 /* SwiftyRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935554B55D4BF8BACAC4F174B636DF8A /* Build configuration list for PBXNativeTarget "SwiftyRSA" */;
+			buildPhases = (
+				EED1FE8CB704BB51963F2190C684EC6F /* Sources */,
+				4587826A90FFA4821547868FE9869C4A /* Frameworks */,
+				58E53DF191C824E4F0F940DF09E8AF97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyRSA;
+			productName = SwiftyRSA;
+			productReference = D0B8B451BAA60AFE25A754B339E0594D /* SwiftyRSA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5004EFD6F6B60EF69C783BF9347BBA97 /* Pods-MyRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6BB13298EB99A51A65421239A4775E /* Build configuration list for PBXNativeTarget "Pods-MyRSA" */;
+			buildPhases = (
+				1E39E45430A6EE35F877F796EDC58B1F /* Sources */,
+				E321711AB596CA7AC4859E6237557272 /* Frameworks */,
+				24B0E2B8B3D6662E619213DB2C63601E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956C996E7156BDDA3EE17D1DE7B59826 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyRSA";
+			productName = "Pods-MyRSA";
+			productReference = F84D13B7C549D4253E1CA62B29416406 /* Pods_MyRSA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D142A4ABA16F7DF37CB2C1729F9B25F2 /* Pods-MyRSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A094A2AFBF7123930042222DF8FECC0A /* Build configuration list for PBXNativeTarget "Pods-MyRSATests" */;
+			buildPhases = (
+				101510C82CE379739EE127C95016ECCA /* Sources */,
+				7547F3DA79155C01628FE7CBC1C21297 /* Frameworks */,
+				50D3D4396ED9BE1C627D92FE7416069F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyRSATests";
+			productName = "Pods-MyRSATests";
+			productReference = 7B13684299AA679A265212715253C010 /* Pods_MyRSATests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FDE61E82C2DBCB415D39847A0DA4B985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5004EFD6F6B60EF69C783BF9347BBA97 /* Pods-MyRSA */,
+				D142A4ABA16F7DF37CB2C1729F9B25F2 /* Pods-MyRSATests */,
+				2825D30EE086BF88D688B0CC65886943 /* SwiftyRSA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101510C82CE379739EE127C95016ECCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DCD96A0A967443AA930EF046AB9E02 /* Pods-MyRSATests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E39E45430A6EE35F877F796EDC58B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A4AA78E12C5B9B09C18C3CEE76C5C4 /* Pods-MyRSA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED1FE8CB704BB51963F2190C684EC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F598D7413B0E634692ECC6716DE713 /* Asn1Parser.swift in Sources */,
+				B871DBC6BBA647446F25B7CB7E0992FC /* Key.swift in Sources */,
+				5F22C4D907F6495535AD95C508740F4F /* Message.swift in Sources */,
+				A370054AA3AA9E883027EE082F71C282 /* NSData+SHA.m in Sources */,
+				2124851C68D73DC654B027E94CD50E9C /* Signature.swift in Sources */,
+				0815927DC7AEECDDE4DDD6EF4CACFFF1 /* SwiftyRSA+ObjC.swift in Sources */,
+				9DDA33AB8AD76275491130A7F6259519 /* SwiftyRSA-dummy.m in Sources */,
+				8C4272FA33B476ABDE8DAD59B2276E79 /* SwiftyRSA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		956C996E7156BDDA3EE17D1DE7B59826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyRSA;
+			target = 2825D30EE086BF88D688B0CC65886943 /* SwiftyRSA */;
+			targetProxy = EB04390A75BD82776780950B9E17EF79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CE1905ABF39D39726D3BC2611C06F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1DBD1F4925D13595DD9B37E442EC45 /* Pods-MyRSA.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyRSA/Pods-MyRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DFCDAAEFB1EDB4A1C5CC2EE2740A9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9365AC15B350AD163C1B9AF005BC6F /* Pods-MyRSATests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyRSATests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyRSATests/Pods-MyRSATests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyRSATests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		317220FBD8C8A421C351EB66317E1653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E781655EA3271C6C0FE69263F641472 /* SwiftyRSA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRSA/SwiftyRSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRSA/SwiftyRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		348A93CB3594B1DBB9FD0FBEDD6727D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B227A21CEB586F189BFB9BF575B603 /* Pods-MyRSA.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyRSA/Pods-MyRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BFE36B163F52626A9F2766F6CE7941E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C927D252D805DD2DF29B51630B530A5A /* Pods-MyRSATests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyRSATests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyRSATests/Pods-MyRSATests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyRSATests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84ACDB073EC4899E27B9E5691914AA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E781655EA3271C6C0FE69263F641472 /* SwiftyRSA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRSA/SwiftyRSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRSA/SwiftyRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935554B55D4BF8BACAC4F174B636DF8A /* Build configuration list for PBXNativeTarget "SwiftyRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317220FBD8C8A421C351EB66317E1653 /* Debug */,
+				84ACDB073EC4899E27B9E5691914AA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A094A2AFBF7123930042222DF8FECC0A /* Build configuration list for PBXNativeTarget "Pods-MyRSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFE36B163F52626A9F2766F6CE7941E /* Debug */,
+				2DFCDAAEFB1EDB4A1C5CC2EE2740A9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6BB13298EB99A51A65421239A4775E /* Build configuration list for PBXNativeTarget "Pods-MyRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CE1905ABF39D39726D3BC2611C06F95 /* Debug */,
+				348A93CB3594B1DBB9FD0FBEDD6727D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
