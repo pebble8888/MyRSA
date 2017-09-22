@@ -5,6 +5,8 @@
 //  Created by pebble8888 on 2017/05/27.
 //  Copyright © 2017年 pebble8888. All rights reserved.
 //
+// @note MyRSAプロジェクトは動作確認用プロジェクトである
+//
 
 import UIKit
 import SwiftyRSA
